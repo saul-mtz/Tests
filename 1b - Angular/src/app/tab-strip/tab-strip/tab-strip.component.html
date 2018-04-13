@@ -1,0 +1,4 @@
+<ul>
+  <li *ngFor="let tab of tabs" [class.selected]="tab.id === selectedTabId"><a href="#" (click)="selectTab(tab.id, $event)">{{tab.tabName}}</a></li>
+</ul>
+<app-tab-container [itemid]="selectedTabId"></app-tab-container>

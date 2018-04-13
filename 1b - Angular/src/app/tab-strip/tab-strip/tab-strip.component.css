@@ -1,0 +1,40 @@
+ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+li
+{
+	list-style: none;
+	display: inline-block;
+	user-select: none;
+}
+
+li > a[href]
+{
+	display: block;
+	position: relative;
+	padding: 1ex 1em;
+	background: linear-gradient(0deg, #eee, #eee 30%, white 50%);
+	border: 1px solid gray;
+	border-bottom-width: 0;
+	border-radius: 1ex 1ex 0 0;
+	color: inherit;
+	text-decoration: none;
+	outline: none;
+}
+
+li > a[href]:hover
+{
+	background: linear-gradient(0deg, #f8f8f8, #f8f8f8 30%, white 50%);
+	color: #444;
+	border-color: #444;
+}
+
+li.selected > a[href]
+{
+	padding-top: 1.3ex;
+	background: white;
+	color: lightseagreen;
+}

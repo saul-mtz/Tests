@@ -1,0 +1,28 @@
+div.container > div.frame
+{
+	border: 1px solid gray;
+	padding: 1em;
+	display: inline-block;
+	min-width: 20em;
+}
+
+div.container > div.frame > div.image
+{
+	transition: opacity .2s ease-in;
+}
+
+div.container > div.frame > div.image.hidden
+{
+	opacity: 0;
+}
+
+div.container > div.frame > div.hideButton
+{
+	text-align: center;
+	padding: 1em;
+}
+
+input[type=submit]
+{
+	padding: 1em 3em;
+}

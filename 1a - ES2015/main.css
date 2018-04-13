@@ -1,0 +1,13 @@
+body
+{
+	background-color: white;
+	color: gray;
+	font: 2vw "Calibri Light", sans-serif;
+	line-height: 1.2em;
+	padding: 2em;
+}
+
+input
+{
+	font: 2vw "Calibri Light", sans-serif;
+}

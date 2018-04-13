@@ -1,0 +1,30 @@
+[
+	{
+		"id": 1
+	,	"title": "Sonne"
+	,	"content":
+		{
+			"id": 1
+		,	"url": "images/1.jpg"
+		}
+	}
+,	{
+		"id": 2
+	,	"title": "Genuss"
+	,	"content":
+		{
+			"id": 2
+		,	"url": "images/2.jpg"
+		}
+	}
+,
+{
+	"id": 3
+,	"title": "Urlaub"
+,	"content":
+	{
+		"id": 3
+	,	"url": "images/3.jpg"
+	}
+}
+]

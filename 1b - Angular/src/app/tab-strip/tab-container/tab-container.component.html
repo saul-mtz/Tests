@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="frame">
+    <div class="image" [class.hidden]="noImage">
+      <img alt="{{item.text}}" src="{{item.imageUrl}}" />
+    </div>
+    <div class="hideButton">
+      <input type="submit" value="Drop" (click)="hideImage()" />
+    </div>
+  </div>
+</div>
